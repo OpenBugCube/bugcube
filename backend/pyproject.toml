@@ -4,8 +4,9 @@ build-backend = "setuptools.build_meta"
 
 
 [tool.setuptools_scm]
-write_to = "src/bugcube_backend/_version.py"
+write_to = "backend/src/bugcube_backend/_version.py"
 relative_to = "__file__"
+root = ".."
 
 [tool.black]
 line-length = 79
@@ -16,5 +17,5 @@ line_length = 79
 
 [tool.coverage.run]
 omit = [
-    "src/bugcube_backend/_version.py",
+    "backend/src/bugcube_backend/_version.py",
 ]
