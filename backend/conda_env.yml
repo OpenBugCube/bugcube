@@ -1,0 +1,17 @@
+name: bugcube_backend
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - fastapi
+  - jinja2
+  - uvicorn
+  - gunicorn
+  - ca-certificates
+  - openssl
+  - pydantic-settings
+  - certifi
+  - pydantic-yaml
+  - pillow
+  - numpy
+prefix: /opt/miniconda3/envs/bugcube_backend

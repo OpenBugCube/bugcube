@@ -1,0 +1,14 @@
+name: bugcube
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - fastapi
+  - uvicorn
+  - gunicorn
+  - httpx
+  - ca-certificates
+  - openssl
+  - pydantic-settings
+  - certifi
+prefix: /opt/user_software/miniconda3/envs/bugcube

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42.0.0", "wheel", "setuptools_scm"]
+build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools_scm]
+write_to = "backend/src/bugcube_backend/_version.py"
+relative_to = "__file__"
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[tool.coverage.run]
+omit = [
+    "backend/src/bugcube_backend/_version.py",
+]
