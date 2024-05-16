@@ -1,0 +1,6 @@
+.*
+**/build/**
+**/node_modules
+**/dist
+**/*.egg-info/**
+**/_version.py
