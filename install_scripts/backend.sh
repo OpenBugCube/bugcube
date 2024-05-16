@@ -1,8 +1,4 @@
 MYDIR="$(dirname "$(realpath "$0")")"
-	proxy_set_header        X-Real-IP       \$remote_addr;
-	proxy_set_header        X-Forwarded-For \$proxy_add_x_forwarded_for;
-	proxy_set_header        Host            \$host;
-
 
 # Variables starting with "BC_" are loaded from setup
 source ${MYDIR}/setup.sh
@@ -38,8 +34,10 @@ then
 	${CONDA_DIR}/bin/mamba env create -n ${ENV_NAME} -f ${BACKEND_BASE}/conda_env.yml
 fi
 
+set -x
 cd ${BACKEND_BASE}
 ${ENV_DIR}/bin/pip install .
+set +x
 cd -
 
 cat << EOF > ${GUNICORN_CONFIG}
