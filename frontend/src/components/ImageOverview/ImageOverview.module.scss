@@ -1,0 +1,32 @@
+.ImageOverview {
+  margin-top: 10px;
+}
+
+.Slider {
+  max-width: 90%;
+}
+
+.SingleOverview {
+  width: 95%;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
+
+.Image {
+  width: 100%;
+  min-height: 325px;
+  object-fit: contain;
+}
+
+.ButtonContainer {
+  width: 48%;
+}
+
+.DownloadButton {
+  font-size: 1em !important;
+  text-transform: none !important;
+  width: 100%;
+  height: 1.8em;
+}
