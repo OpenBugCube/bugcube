@@ -1,3 +1,9 @@
+# Author: Markus Stabrin
+# Contact: it@markus-stabrin.de
+# Github: mstabrin
+
+# Variables used in the installation process.
+
 set -x
 export BC_MAIN_DIR=$(realpath ${BC_MAIN_DIR:-"."})
 export BC_CONFIG_FOLDER=${BC_CONFIG_FOLDER:-${BC_MAIN_DIR}/build/config}

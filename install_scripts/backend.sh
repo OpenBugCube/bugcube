@@ -1,3 +1,14 @@
+# Author: Markus Stabrin
+# Contact: it@markus-stabrin.de
+# Github: mstabrin
+
+#Installs the python backend based on fastapi and gunicorn.  
+#Runs a conda installation if not available and creates a new virtual environment in it. Installs the backend inside of the python environment.
+#
+#Additionally, the bugcube backend config, gunicorn config and the systemd service file is created.
+#
+#The NGINX config will also be created with or without SSL based on the `BC_USE_SSL` variable.
+
 MYDIR="$(dirname "$(realpath "$0")")"
 
 # Variables starting with "BC_" are loaded from setup
@@ -67,7 +78,6 @@ EOF
 cat << EOF > ${SERVICE_FILE}
 [Unit]
 Description=Gunicorn Daemon for FastAPI BugCube application
-After=winbind.service
 
 [Service]
 User=${BC_SERVICE_USER}

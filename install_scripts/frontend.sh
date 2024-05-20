@@ -1,3 +1,12 @@
+# Author: Markus Stabrin
+# Contact: it@markus-stabrin.de
+# Github: mstabrin
+
+# Installs the React frontend.
+#
+#It inserts the IP and port of the backend into the app and builds the application.
+#Additionally, the NGINX config is created.
+
 MYDIR="$(dirname "$(realpath "$0")")"
 
 # Variables starting with "BC_" are loaded from setup

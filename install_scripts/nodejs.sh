@@ -1,3 +1,9 @@
+# Author: Markus Stabrin
+# Contact: it@markus-stabrin.de
+# Github: mstabrin
+
+# Installs nodejs if not already installed.
+
 MYDIR="$(dirname "$(realpath "$0")")"
 
 # Variables starting with "BC_" are loaded from setup

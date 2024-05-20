@@ -1,3 +1,9 @@
+# Author: Markus Stabrin
+# Contact: it@markus-stabrin.de
+# Github: mstabrin
+
+# Creates a new service user if not already available which will run the frontend and backend and does not have a login.
+
 MYDIR="$(dirname "$(realpath "$0")")"
 
 # Variables starting with "BC_" are loaded from setup

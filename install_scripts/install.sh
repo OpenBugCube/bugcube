@@ -1,3 +1,7 @@
+# Author: Markus Stabrin
+# Contact: it@markus-stabrin.de
+# Github: mstabrin
+
 if [[ ${USER} != root ]]
 then
 	echo "This scripts needs to be run as root"
