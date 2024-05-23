@@ -1,3 +1,11 @@
+"""
+Author: Markus Stabrin
+Contact: it@markus-stabrin.de
+Github: mstabrin
+
+API enpoints related to metadata.
+"""
+
 from fastapi import APIRouter
 
 from .. import _tasks, backend

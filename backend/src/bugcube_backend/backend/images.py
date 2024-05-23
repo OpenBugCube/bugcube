@@ -1,3 +1,10 @@
+"""
+Author: Markus Stabrin
+Contact: it@markus-stabrin.de
+Github: mstabrin
+
+This script contains the logic how files are handled.
+"""
 import base64
 import enum
 import io

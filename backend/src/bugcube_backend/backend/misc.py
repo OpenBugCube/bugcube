@@ -1,3 +1,11 @@
+"""
+Author: Markus Stabrin
+Contact: it@markus-stabrin.de
+Github: mstabrin
+
+Utility functions that helps to handle metadata and images.
+"""
+
 import os
 import pathlib
 

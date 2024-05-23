@@ -1,3 +1,10 @@
+"""
+Author: Markus Stabrin
+Contact: it@markus-stabrin.de
+Github: mstabrin
+
+Api endpoints for image related tasks.
+"""
 from fastapi import APIRouter
 
 from .. import backend

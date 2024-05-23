@@ -1,3 +1,11 @@
+"""
+Author: Markus Stabrin
+Contact: it@markus-stabrin.de
+Github: mstabrin
+
+API endpoints for miscellaneous tasks.
+"""
+
 import pathlib
 
 from fastapi import APIRouter, HTTPException, status

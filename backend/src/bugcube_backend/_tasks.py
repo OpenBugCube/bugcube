@@ -1,6 +1,13 @@
 """
 Most Code taken from the fastapi-utils project:
     https://github.com/dmontagu/fastapi-utils/blob/master/fastapi_utils/tasks.py
+
+Co-Author: Markus Stabrin
+Contact: it@markus-stabrin.de
+Github: mstabrin
+
+This script provides a utility function to easily repeat processes in a
+separate thread.
 """
 # flake8: noqa
 from __future__ import annotations

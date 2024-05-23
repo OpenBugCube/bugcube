@@ -1,3 +1,11 @@
+"""
+Author: Markus Stabrin
+Contact: it@markus-stabrin.de
+Github: mstabrin
+
+This script is an endpoint for debugging purposes.
+"""
+
 import argparse
 import logging
 

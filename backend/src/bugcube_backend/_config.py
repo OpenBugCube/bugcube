@@ -1,3 +1,11 @@
+"""
+Author: Markus Stabrin
+Contact: it@markus-stabrin.de
+Github: mstabrin
+
+The Settings object is read from the environment and stored in the
+SETTINGS object.
+"""
 import os
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
